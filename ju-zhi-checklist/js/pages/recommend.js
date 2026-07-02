@@ -516,7 +516,7 @@ const RecommendPage = {
     const lightingDemo = bundle.id === 'lighting'
       ? `<div class="lighting-demo-wrapper" style="margin:12px 0;border:1px solid var(--border,#333);border-radius:12px;overflow:hidden;background:#0a0a10;">
            <div style="height:600px;">
-             <iframe src="file:///D:/TRAE_SOLO_Data/nietest/dengguangzhanshi/smart-lighting-demo/smart-lighting-demo.html" style="width:100%;height:100%;border:none;" scrolling="no"></iframe>
+             <iframe src="assets/lighting-demo/smart-lighting-demo.html" style="width:100%;height:100%;border:none;" scrolling="no"></iframe>
            </div>
          </div>`
       : '';
