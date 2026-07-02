@@ -154,7 +154,20 @@ const RecommendPage = {
             </div>
           </div>
         </div>
-      `;setTimeout
+      `;
+      
+      // 自动展开灯光氛围包，展示灯光效果
+      setTimeout(() => {
+        const lightingBundle = document.getElementById('bundle-lighting');
+        if (lightingBundle) {
+          const body = lightingBundle.querySelector('.scene-package-body');
+          const toggle = lightingBundle.querySelector('.scene-package-toggle');
+          if (body && body.style.display !== 'block') {
+            body.style.display = 'block';
+            if (toggle) toggle.style.transform = 'rotate(180deg)';
+          }
+        }
+      }, 100);
     } catch (e) {
       console.error('推荐页面渲染失败:', e);
       App.showToast('页面渲染出错，请刷新重试');
