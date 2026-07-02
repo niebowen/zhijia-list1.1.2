@@ -154,7 +154,7 @@ const RecommendPage = {
             </div>
           </div>
         </div>
-      `;
+      `;setTimeout
     } catch (e) {
       console.error('推荐页面渲染失败:', e);
       App.showToast('页面渲染出错，请刷新重试');
