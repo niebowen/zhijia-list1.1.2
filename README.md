@@ -8,7 +8,7 @@
 
 ## 在线体验
 
-[点击打开智家清单](https://niebowen.github.io/zhijia-list/)
+[点击打开智家清单](https://niebowen.github.io/zhijia-list1.1.2/ju-zhi-checklist/intro.html)
 
 ---
 
